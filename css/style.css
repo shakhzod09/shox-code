@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: blue;
+}
+
+.navbar .contanier{
+    width: 70%;
+    padding: 10px 150px;
+}
+
+.navbar .nav{
+    background-color: #333;
+    padding: 10px 150px;
+    display: flex;
+}
+
+.nav li a{
+    color: #fff;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.home-section .box-1{
+    text-align: center;
+    background-image: url(../mtsocial.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+.home-section .el-1{
+    padding-top: 200px;
+}
+
+.home-section .hero-top{
+    padding-top: 0px;
+    font-size: 3rem;
+    color: rgb(255, 251, 0);
+    background-color: rgba(0, 0, 0, 0.676);
+}
+
+.home-section .box-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-2 h3{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    background-color: red;
+}
+
+.box-2 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.box-3{
+    padding-top: 0px;
+}
+
+.box-3 p{
+    background-color: rgb(7, 209, 209);
+    padding: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: firebrick;
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 2rem;
+}

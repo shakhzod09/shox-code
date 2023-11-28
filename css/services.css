@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#card{
+    background-color: blue;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between ;
+}
+
+#card{
+    font-size: 2rem;
+    padding: 20px 10px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#card{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#card{
+    padding: 0px;
+}
+
+#card{
+    background-color: rgb(7, 209, 209);
+    padding: 40px;
+}
+
+.features{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 10px;
+}
